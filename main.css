@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: poppins;
+  text-transform: capitalize;
+}
+.container {
+  /* background-color: pink; */
+  width: 75vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.sec {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.sec h3 {
+  text-align: center;
+}
+.b-sec {
+  background-color: rgb(144, 212, 144);
+  border: 5px solid green;
+}
+.input {
+  padding: 0.5rem 0.25rem;
+  margin-top: 1rem;
+
+  border-radius: 5px;
+}
+
+.total div {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+#b-amount {
+  border: 2px solid green;
+}
+.btn {
+  width: 50%;
+  margin: 1rem auto 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.b-submit {
+  border: 2px solid green;
+}
+.e-sec {
+  background-color: rgb(212, 157, 144);
+  border: 5px solid red;
+}
+.e-submit {
+  border: 2px solid red;
+}
+#e-desc {
+  border: 2px solid red;
+}
+#e-amount {
+  border: 2px solid red;
+}
+.js-sec {
+  background-color: darkgrey;
+}
+.balance {
+  background-color: cadetblue;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.error {
+  background-color: rgb(52, 0, 0);
+  color: rgb(255, 255, 255);
+  min-width: 70%;
+}
+.date {
+  background-color: grey;
+  pad: 1rem;
+}
+#date {
+  padding: 1rem;
+}
+.date h3 {
+  margin-bottom: 1rem;
+}
+.hide {
+  display: none;
+}
+.single-js {
+  font-size: 1.5rem;
+}

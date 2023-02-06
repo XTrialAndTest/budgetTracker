@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BT</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- budget section b 4 budget -->
+      <div class="sec date">
+        <h3>choose the date</h3>
+        <input type="date" name="" id="date" />
+      </div>
+      <div class="sec b-sec">
+        <div class="error hide b-error">
+          the value you entered is invalid!!!
+        </div>
+        <h3>your budget</h3>
+        <input
+          type="number"
+          name=""
+          class="input"
+          placeholder="enter your budget amount"
+          id="b-amount"
+        />
+        <button typer="submit" class="btn b-submit">submit</button>
+      </div>
+      <!-- the total sections -->
+      <div class="sec balance">
+        <div class="total">
+          <h3>total budget</h3>
+          <div class="b-total">0</div>
+        </div>
+        <div class="total">
+          <h3>total expenditure</h3>
+          <div class="e-total">0</div>
+        </div>
+        <div class="total">
+          <h3>the balance</h3>
+          <div class="the-balance">0</div>
+        </div>
+      </div>
+      <!-- expenditure section e 4 expenditure -->
+      <div class="sec e-sec">
+        <div class="error hide e-error">
+          the value you entered is invalid!!!
+        </div>
+        <h3>what is your expense</h3>
+        <input
+          type="text"
+          name=""
+          class="input"
+          placeholder="describe your expenditure"
+          id="e-desc"
+        />
+        <h3>the expense amount</h3>
+        <input
+          type="number"
+          name=""
+          class="input"
+          placeholder="enter your expense amount"
+          id="e-amount"
+        />
+
+        <button type="submit" class="btn e-submit">submit</button>
+      </div>
+      <!-- data from the js -->
+      <div class="sec js-sec">
+        <h3>your expenditure</h3>
+        <div class="js-data"></div>
+        <button class="btn js-btn">see your expenses</button>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+    <!-- <script src="/app2.js"></script> -->
+  </body>
+</html>
